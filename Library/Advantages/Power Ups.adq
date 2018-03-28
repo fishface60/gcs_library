@@ -2400,6 +2400,12 @@
 			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
+			<name>Power Based</name>
+			<cost type="percentage">-5</cost>
+			<affects>total</affects>
+			<reference>PY12:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
 			<name>Cosmic</name>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
