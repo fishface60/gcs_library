@@ -2418,28 +2418,119 @@
 			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
-			<name>Only One Skill</name>
+			<name>Limited Skill Access, Only One Skill</name>
 			<cost type="percentage">-80</cost>
 			<affects>total</affects>
 			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
-			<name>Only Two Skills</name>
+			<name>Limited Skill Access, Only Two Skills</name>
 			<cost type="percentage">-60</cost>
 			<affects>total</affects>
 			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
-			<name>Only Three Skills</name>
+			<name>Limited Skill Access, Only Three Skills</name>
 			<cost type="percentage">-40</cost>
 			<affects>total</affects>
 			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
-			<name>Only Four Skills</name>
+			<name>Limited Skill Access, Only Four Skills</name>
 			<cost type="percentage">-20</cost>
 			<affects>total</affects>
 			<reference>PU1:4</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Imbue Other only</name>
+			<cost type="percentage">0</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Imbue Other</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Ranged Imbue Other</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+			<notes>Uses normal Speed/Range penalties</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited Skill Access, One Category</name>
+			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited Skill Access, One Type</name>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited Skill Application, One Category</name>
+			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited Skill Application, Only Four Skills</name>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited Skill Application, Only Three Skills</name>
+			<cost type="percentage">-30</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited Skill Application, Only Two Skills</name>
+			<cost type="percentage">-40</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited Skill Application, One Skill or Unarmed Only</name>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<reference>PY36:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Spells Only, Any Spell</name>
+			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+			<reference>PY36:25</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Spells Only, @Missile, Jet or Blocking@ Spells Only</name>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+			<reference>PY36:25</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Spells Only, One College or Power Investiture</name>
+			<cost type="percentage">-30</cost>
+			<affects>total</affects>
+			<reference>PY36:25</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Spells Only, Only Two Spells</name>
+			<cost type="percentage">-40</cost>
+			<affects>total</affects>
+			<reference>PY36:25</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Spells Only, Only One Spell</name>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<reference>PY36:25</reference>
 		</modifier>
 		<reference>PU1:4</reference>
 		<categories>
@@ -2884,6 +2975,156 @@
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Widen Shield</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Reinforce Weapon</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Returning Weapon</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Underwater Strike</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Acid Weapon</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Fulminating Strike</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Multistrike</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Stabilized Shot</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Aerial Operation</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Agile Operation</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">All-Terrain Operation</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Alluring Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Animate Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Aquatic Operation</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Armored Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Chameleon Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Clinging Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Efficient Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Hardy Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Hasten Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Phantom Hold</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Phasing Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Ramming Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Self-Repairing Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Stable Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Stalwart Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Superior Life Support</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Tireless Mount</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Transform Vehicle</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Underground Operation</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Vacuum Operation</name>
 			<specialization compare="is anything"></specialization>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>

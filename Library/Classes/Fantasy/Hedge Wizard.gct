@@ -1,215 +1,215 @@
-<?xml version="1.0" encoding="US-ASCII" ?>
-<template id="00d31ed9-2a24-4288-9ca7-8a96869e5e4a" version="2">
-	<advantage_list>
-		<advantage_container version="2" open="yes">
-			<name>Hedge Wizard</name>
+	<?xml version="1.0" encoding="US-ASCII" ?>
+	<template id="00d31ed9-2a24-4288-9ca7-8a96869e5e4a" version="2">
+		<advantage_list>
 			<advantage_container version="2" open="yes">
-				<name>Class Disadvantage</name>
-				<advantage version="2">
-					<name>Wealth</name>
-					<type>Social</type>
-					<modifier version="1" enabled="no">
-						<name>Dead Broke</name>
-						<cost type="points">-25</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-						<notes>Starting wealth is $0</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Poor</name>
-						<cost type="points">-15</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-						<notes>Starting wealth is 1/5 average</notes>
-					</modifier>
-					<modifier version="1">
-						<name>Struggling</name>
-						<cost type="points">-10</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-						<notes>Starting wealth is 1/2 average</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Average</name>
-						<cost type="points">0</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Comfortable</name>
-						<cost type="points">10</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-						<notes>Starting wealth is 2x average</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Wealthy</name>
-						<cost type="points">20</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-						<notes>Starting wealth is 5x average</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Very Wealthy</name>
-						<cost type="points">30</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-						<notes>Starting wealth is 20x average</notes>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Filthy Rich</name>
-						<cost type="points">50</cost>
-						<affects>total</affects>
-						<reference>B25</reference>
-						<notes>Starting wealth is 100x average</notes>
-					</modifier>
-					<reference>B25</reference>
-					<categories>
-						<category>Advantage</category>
-						<category>Disadvantage</category>
-					</categories>
-				</advantage>
-				<advantage_container version="2" open="no">
-					<name>-15 chosen from:</name>
+				<name>Hedge Wizard</name>
+				<advantage_container version="2" open="yes">
+					<name>Class Disadvantage</name>
 					<advantage version="2">
-						<name>Bully</name>
-						<type>Mental</type>
-						<base_points>-10</base_points>
-						<cr>12</cr>
-						<reference>B125</reference>
-						<categories>
-							<category>Disadvantage</category>
-						</categories>
-					</advantage>
-					<advantage version="2">
-						<name>Code of Honor (Professional)</name>
-						<type>Mental</type>
-						<base_points>-5</base_points>
-						<reference>B127</reference>
-						<categories>
-							<category>Disadvantage</category>
-						</categories>
-					</advantage>
-					<advantage version="2">
-						<name>Loner</name>
-						<type>Mental</type>
-						<base_points>-5</base_points>
-						<cr adj="reaction penalty">12</cr>
-						<reference>B142</reference>
-						<categories>
-							<category>Disadvantage</category>
-						</categories>
-					</advantage>
-					<advantage version="2">
-						<name>Pacifism: Cannot Harm Innocents</name>
-						<type>Mental</type>
-						<base_points>-10</base_points>
+						<name>Wealth</name>
+						<type>Social</type>
 						<modifier version="1" enabled="no">
-							<name>Species-Specific</name>
-							<cost type="percentage">-80</cost>
+							<name>Dead Broke</name>
+							<cost type="points">-25</cost>
 							<affects>total</affects>
-							<reference>UT32</reference>
-						</modifier>
-						<reference>B148</reference>
-						<categories>
-							<category>Disadvantage</category>
-						</categories>
-					</advantage>
-					<advantage version="2">
-						<name>Pacifism: Reluctant Killer</name>
-						<type>Mental</type>
-						<base_points>-5</base_points>
-						<modifier version="1" enabled="no">
-							<name>Species-Specific</name>
-							<cost type="percentage">-80</cost>
-							<affects>total</affects>
-							<reference>UT32</reference>
-						</modifier>
-						<reference>B148</reference>
-						<categories>
-							<category>Disadvantage</category>
-						</categories>
-					</advantage>
-					<advantage version="2">
-						<name>Sense of Duty</name>
-						<type>Mental</type>
-						<modifier version="1" enabled="no">
-							<name>Friends and Companions</name>
-							<cost type="points">-5</cost>
-							<affects>total</affects>
-							<reference>B153</reference>
-						</modifier>
-						<modifier version="1">
-							<name>Village</name>
-							<cost type="points">-5</cost>
-							<affects>total</affects>
-							<reference>B153</reference>
+							<reference>B25</reference>
+							<notes>Starting wealth is $0</notes>
 						</modifier>
 						<modifier version="1" enabled="no">
-							<name>@Individual@</name>
-							<cost type="points">-2</cost>
-							<affects>total</affects>
-							<reference>B153</reference>
-						</modifier>
-						<modifier version="1" enabled="no">
-							<name>@Large Group@</name>
-							<cost type="points">-10</cost>
-							<affects>total</affects>
-							<reference>B153</reference>
-						</modifier>
-						<modifier version="1" enabled="no">
-							<name>@Entire Race@</name>
+							<name>Poor</name>
 							<cost type="points">-15</cost>
 							<affects>total</affects>
-							<reference>B153</reference>
+							<reference>B25</reference>
+							<notes>Starting wealth is 1/5 average</notes>
+						</modifier>
+						<modifier version="1">
+							<name>Struggling</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is 1/2 average</notes>
 						</modifier>
 						<modifier version="1" enabled="no">
-							<name>Every Living Being</name>
-							<cost type="points">-20</cost>
+							<name>Average</name>
+							<cost type="points">0</cost>
 							<affects>total</affects>
-							<reference>B153</reference>
+							<reference>B25</reference>
 						</modifier>
-						<reference>B153</reference>
+						<modifier version="1" enabled="no">
+							<name>Comfortable</name>
+							<cost type="points">10</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is 2x average</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Wealthy</name>
+							<cost type="points">20</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is 5x average</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Very Wealthy</name>
+							<cost type="points">30</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is 20x average</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Filthy Rich</name>
+							<cost type="points">50</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is 100x average</notes>
+						</modifier>
+						<reference>B25</reference>
 						<categories>
+							<category>Advantage</category>
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
+					<advantage_container version="2" open="no">
+						<name>-15 chosen from:</name>
+						<advantage version="2">
+							<name>Bully</name>
+							<type>Mental</type>
+							<base_points>-10</base_points>
+							<cr>12</cr>
+							<reference>B125</reference>
+							<categories>
+								<category>Disadvantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Code of Honor (Professional)</name>
+							<type>Mental</type>
+							<base_points>-5</base_points>
+							<reference>B127</reference>
+							<categories>
+								<category>Disadvantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Loner</name>
+							<type>Mental</type>
+							<base_points>-5</base_points>
+							<cr adj="reaction penalty">12</cr>
+							<reference>B142</reference>
+							<categories>
+								<category>Disadvantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Pacifism: Cannot Harm Innocents</name>
+							<type>Mental</type>
+							<base_points>-10</base_points>
+							<modifier version="1" enabled="no">
+								<name>Species-Specific</name>
+								<cost type="percentage">-80</cost>
+								<affects>total</affects>
+								<reference>UT32</reference>
+							</modifier>
+							<reference>B148</reference>
+							<categories>
+								<category>Disadvantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Pacifism: Reluctant Killer</name>
+							<type>Mental</type>
+							<base_points>-5</base_points>
+							<modifier version="1" enabled="no">
+								<name>Species-Specific</name>
+								<cost type="percentage">-80</cost>
+								<affects>total</affects>
+								<reference>UT32</reference>
+							</modifier>
+							<reference>B148</reference>
+							<categories>
+								<category>Disadvantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Sense of Duty</name>
+							<type>Mental</type>
+							<modifier version="1" enabled="no">
+								<name>Friends and Companions</name>
+								<cost type="points">-5</cost>
+								<affects>total</affects>
+								<reference>B153</reference>
+							</modifier>
+							<modifier version="1">
+								<name>Village</name>
+								<cost type="points">-5</cost>
+								<affects>total</affects>
+								<reference>B153</reference>
+							</modifier>
+							<modifier version="1" enabled="no">
+								<name>@Individual@</name>
+								<cost type="points">-2</cost>
+								<affects>total</affects>
+								<reference>B153</reference>
+							</modifier>
+							<modifier version="1" enabled="no">
+								<name>@Large Group@</name>
+								<cost type="points">-10</cost>
+								<affects>total</affects>
+								<reference>B153</reference>
+							</modifier>
+							<modifier version="1" enabled="no">
+								<name>@Entire Race@</name>
+								<cost type="points">-15</cost>
+								<affects>total</affects>
+								<reference>B153</reference>
+							</modifier>
+							<modifier version="1" enabled="no">
+								<name>Every Living Being</name>
+								<cost type="points">-20</cost>
+								<affects>total</affects>
+								<reference>B153</reference>
+							</modifier>
+							<reference>B153</reference>
+							<categories>
+								<category>Disadvantage</category>
+							</categories>
+						</advantage>
+					</advantage_container>
 				</advantage_container>
-			</advantage_container>
-			<advantage_container version="2" open="yes">
-				<name>Class Advantage</name>
-				<advantage version="2">
-					<name>Magery</name>
-					<type>Mental, Supernatural</type>
-					<levels>0</levels>
-					<base_points>5</base_points>
-					<points_per_level>10</points_per_level>
-					<modifier version="1" enabled="no">
-						<name>Dance</name>
-						<cost type="percentage">-40</cost>
-						<affects>levels only</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Dark-Aspected</name>
-						<cost type="percentage">-50</cost>
-						<affects>levels only</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Day-Aspected</name>
-						<cost type="percentage">-40</cost>
-						<affects>levels only</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Musical</name>
-						<cost type="percentage">-50</cost>
-						<affects>levels only</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
-						<name>Night-Aspected</name>
-						<cost type="percentage">-40</cost>
-						<affects>levels only</affects>
-					</modifier>
-					<modifier version="1" enabled="no">
+				<advantage_container version="2" open="yes">
+					<name>Class Advantage</name>
+					<advantage version="2">
+						<name>Magery</name>
+						<type>Mental, Supernatural</type>
+						<levels>0</levels>
+						<base_points>5</base_points>
+						<points_per_level>10</points_per_level>
+						<modifier version="1" enabled="no">
+							<name>Dance</name>
+							<cost type="percentage">-40</cost>
+							<affects>levels only</affects>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Dark-Aspected</name>
+							<cost type="percentage">-50</cost>
+							<affects>levels only</affects>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Day-Aspected</name>
+							<cost type="percentage">-40</cost>
+							<affects>levels only</affects>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Musical</name>
+							<cost type="percentage">-50</cost>
+							<affects>levels only</affects>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Night-Aspected</name>
+							<cost type="percentage">-40</cost>
+							<affects>levels only</affects>
+						</modifier>
+						<modifier version="1" enabled="no">
 						<name>One College</name>
 						<cost type="percentage">-40</cost>
 						<affects>levels only</affects>
@@ -235,6 +235,476 @@
 					<skill_bonus>
 						<name compare="is">thaumatology</name>
 						<specialization compare="is anything"></specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Annihilating Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Arching Shot</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Bank Shot</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Conic Blast</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Continuing Attack</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Crippling Blow</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Dancing Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Drugged Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Electric Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Envenomed Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Far Shot</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Forceful Blow</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Ghostly Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Guided Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Homing Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Incendiary Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Multi-Shot</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Penetrating Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Project Blow</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Shattershot</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Shockwave</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Stealthy Attack</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Stupefying Blow</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Sudden Death</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Supreme Control</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Telescoping Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Traumatic Blow</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Binding Shot</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Burning Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Chilling Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Corrosive Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Crushing Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Cutting Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Dazzling Display</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Deafening Display</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Fatiguing Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Impaling Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Piercing Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Strike of Negation</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Toxic Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Vampiric Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Withering Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Blinding Defense</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Blunting Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Dancing Shield</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Energizing Defense</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Expand Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Fireproof Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Healthful Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Impenetrable Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Insulated Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Lighten Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Nullifying Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Padded Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Reinforce Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Resilient Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Restorative Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Rigid Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Sovereign Armor</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Spiritual Defense</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Subtle Defense</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Thunderous Defense</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Vengeful Defense</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Widen Shield</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Reinforce Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Returning Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Underwater Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Acid Weapon</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Fulminating Strike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Multistrike</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Stabilized Shot</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Aerial Operation</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Agile Operation</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">All-Terrain Operation</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Alluring Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Animate Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Aquatic Operation</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Armored Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Chameleon Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Clinging Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Efficient Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Hardy Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Hasten Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Phantom Hold</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Phasing Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Ramming Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Self-Repairing Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Stable Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Stalwart Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Superior Life Support</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Tireless Mount</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Transform Vehicle</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Underground Operation</name>
+						<specialization compare="contains">Magical</specialization>
+						<amount per_level="yes">1</amount>
+					</skill_bonus>
+					<skill_bonus>
+						<name compare="is">Vacuum Operation</name>
+						<specialization compare="contains">Magical</specialization>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
@@ -566,6 +1036,476 @@
 						<skill_bonus>
 							<name compare="is">thaumatology</name>
 							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Annihilating Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Arching Shot</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Bank Shot</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Conic Blast</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Continuing Attack</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Crippling Blow</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Dancing Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Drugged Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Electric Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Envenomed Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Far Shot</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Forceful Blow</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Ghostly Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Guided Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Homing Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Incendiary Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Multi-Shot</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Penetrating Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Project Blow</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Shattershot</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Shockwave</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Stealthy Attack</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Stupefying Blow</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Sudden Death</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Supreme Control</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Telescoping Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Traumatic Blow</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Binding Shot</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Burning Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Chilling Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Corrosive Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Crushing Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Cutting Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Dazzling Display</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Deafening Display</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Fatiguing Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Impaling Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Piercing Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Strike of Negation</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Toxic Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Vampiric Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Withering Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Blinding Defense</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Blunting Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Dancing Shield</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Energizing Defense</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Expand Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Fireproof Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Healthful Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Impenetrable Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Insulated Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Lighten Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Nullifying Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Padded Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Reinforce Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Resilient Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Restorative Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Rigid Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Sovereign Armor</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Spiritual Defense</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Subtle Defense</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Thunderous Defense</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Vengeful Defense</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Widen Shield</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Reinforce Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Returning Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Underwater Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Acid Weapon</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Fulminating Strike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Multistrike</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Stabilized Shot</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Aerial Operation</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Agile Operation</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">All-Terrain Operation</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Alluring Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Animate Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Aquatic Operation</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Armored Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Chameleon Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Clinging Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Efficient Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Hardy Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Hasten Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Phantom Hold</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Phasing Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Ramming Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Self-Repairing Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Stable Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Stalwart Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Superior Life Support</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Tireless Mount</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Transform Vehicle</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Underground Operation</name>
+							<specialization compare="contains">Magical</specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Vacuum Operation</name>
+							<specialization compare="contains">Magical</specialization>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>

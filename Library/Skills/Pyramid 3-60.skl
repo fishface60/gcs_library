@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<skill_list id="2d46ac6c-5344-4e48-9151-8cce1dc68ade" version="1">
+	<skill_container version="2" open="yes">
+		<name>Mystic Power-Ups</name>
+		<reference>PY60:26</reference>
+		<skill version="2">
+			<name>Acid Weapon</name>
+			<specialization>@General Weapon Skill@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY60:27</reference>
+			<categories>
+				<category>Enhancement</category>
+				<category>General</category>
+				<category>Imbue</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Fulminating Strike</name>
+			<specialization>@General Weapon Skill@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY60:27</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transformation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Multistrike</name>
+			<specialization>@Melee Weapon Skill@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY60:27</reference>
+			<categories>
+				<category>Enhancement</category>
+				<category>Imbue</category>
+				<category>Melee</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Stabilized Shot</name>
+			<specialization>@Ranged Weapon Skill@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY60:27</reference>
+			<categories>
+				<category>Enhancement</category>
+				<category>Imbue</category>
+				<category>Ranged</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<technique version="2" limit="0">
+			<name>Dissolving Strike</name>
+			<difficulty>H</difficulty>
+			<points>1</points>
+			<reference>PY60:26</reference>
+			<default>
+				<type>Skill</type>
+				<name>Acid Weapon</name>
+				<specialization>@Specialisation@</specialization>
+				<modifier>-20</modifier>
+			</default>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Efficient Imbuement</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>PY60:29</reference>
+			<default>
+				<type>Skill</type>
+				<name>@Skill@</name>
+				<specialization>@Specialisation@</specialization>
+				<modifier>-5</modifier>
+			</default>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Imbuement Transference</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>PY60:29</reference>
+			<default>
+				<type>Skill</type>
+				<name>@Skill@</name>
+				<specialization>@Specialisation@</specialization>
+				<modifier>-10</modifier>
+			</default>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Instantaneous Project Blow</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>PY60:29</reference>
+			<default>
+				<type>Skill</type>
+				<name>Project Blow</name>
+				<specialization>@Specialisation@</specialization>
+				<modifier>-10</modifier>
+			</default>
+		</technique>
+		<technique version="2" limit="0">
+			<name>Killing Strike</name>
+			<difficulty>H</difficulty>
+			<points>2</points>
+			<reference>PY60:30</reference>
+			<default>
+				<type>Skill</type>
+				<name>Crippling Blow</name>
+				<specialization>@Specialisation@</specialization>
+				<modifier>-30</modifier>
+			</default>
+		</technique>
+	</skill_container>
+</skill_list>

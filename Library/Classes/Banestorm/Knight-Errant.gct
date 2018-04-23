@@ -76,7 +76,7 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="2" open="yes">
 				<name>Class Advantage</name>
 				<advantage_container version="2" open="no">
 					<name>15 points chosen from</name>
@@ -487,7 +487,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="2" open="yes">
 				<name>Class Disadvantage</name>
 				<advantage_container version="2" open="yes">
 					<name>-20 points chosen from</name>
@@ -782,7 +782,7 @@
 				</advantage_container>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="2" open="no">
 			<name>Knightly Lenses</name>
 			<reference>BS209</reference>
 			<advantage_container version="2" open="no">
@@ -2038,10 +2038,25 @@
 		<skill_container version="2" open="yes">
 			<name>Knight-Errant</name>
 			<reference>BS208</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="2" open="yes">
 				<name>Primary Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="2" open="yes">
 					<name>16 points chosen from</name>
+					<skill version="2">
+						<name>Shield</name>
+						<specialization>Shield</specialization>
+						<difficulty>DX/E</difficulty>
+						<points>4</points>
+						<reference>B220</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
+						<default>
+							<type>DX</type>
+							<modifier>-4</modifier>
+						</default>
+					</skill>
 					<skill version="2">
 						<name>Axe/Mace</name>
 						<difficulty>DX/A</difficulty>

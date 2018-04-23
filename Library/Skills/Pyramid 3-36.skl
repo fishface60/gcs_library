@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<skill_list id="2b2dce58-45ce-4059-9003-151c71b370fc" version="1">
+	<skill_container version="2" open="yes">
+		<name>Powering Up: Imbuements</name>
+		<reference>PY36:24</reference>
+		<skill version="2">
+			<name>Underwater Strike</name>
+			<specialization>@General Weapon Skill@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY36:25</reference>
+			<categories>
+				<category>Enhancement</category>
+				<category>General</category>
+				<category>Imbue</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 1</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+	</skill_container>
+</skill_list>

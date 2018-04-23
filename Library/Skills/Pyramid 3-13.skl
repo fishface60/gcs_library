@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<skill_list id="05ee3d2b-95c8-4656-9f54-983d2f02de85" version="1">
+	<skill_container version="2" open="yes">
+		<name>The Mystic Knight</name>
+		<reference>PY13:16</reference>
+		<skill version="2">
+			<name>Reinforce Weapon</name>
+			<specialization>@Melee Weapon Skill@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY13:18</reference>
+			<categories>
+				<category>Enhancement</category>
+				<category>Imbue</category>
+				<category>Melee</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 1</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Returning Weapon</name>
+			<specialization>@Ranged Weapon Skill@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY13:18</reference>
+			<categories>
+				<category>Enhancement</category>
+				<category>Imbue</category>
+				<category>Ranged</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 1</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+	</skill_container>
+</skill_list>
