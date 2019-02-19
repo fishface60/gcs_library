@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<advantage_list id="47bf4010-baa7-4fa1-9a3e-82ae49a3aab1" version="1">
+	<advantage_container version="2" open="yes">
+		<name>Vehicle Imbuements</name>
+		<reference>PY71:25</reference>
+		<advantage_container version="2" open="yes">
+			<name>New Perks</name>
+			<reference>PY71:28</reference>
+			<advantage version="2">
+				<name>Imbued Vehicle/Mount Bond (@Vehicle@)</name>
+				<type>Mental, Supernatural</type>
+				<base_points>1</base_points>
+				<reference>PY71:28</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">Imbue</name>
+						<notes compare="contains">Imbue level 2</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">Imbue</name>
+						<notes compare="contains">Imbue level 3</notes>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">Imbue</name>
+						<notes compare="contains">Imbue level 1</notes>
+					</advantage_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Improvised Imbuement</name>
+				<type>Mental, Supernatural</type>
+				<base_points>1</base_points>
+				<reference>PY71:28</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Lingering Mastery (@Skill@)</name>
+				<type>Mental, Supernatural</type>
+				<base_points>1</base_points>
+				<reference>PY71:28</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+				<prereq_list all="yes">
+					<skill_prereq has="yes">
+						<name compare="is">@Skill@</name>
+						<specialization compare="is anything"></specialization>
+						<level compare="at least">16</level>
+					</skill_prereq>
+				</prereq_list>
+			</advantage>
+			<advantage version="2">
+				<name>Potent Imbuement (@Skill@)</name>
+				<type>Mental, Supernatural</type>
+				<base_points>1</base_points>
+				<reference>PY71:28</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Vehicle/Mount Bond (@Vehicle@)</name>
+				<type>Mental</type>
+				<base_points>1</base_points>
+				<reference>PY71:28</reference>
+				<categories>
+					<category>Perk</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_container>
+</advantage_list>

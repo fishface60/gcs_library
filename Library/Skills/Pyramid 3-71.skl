@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<skill_list id="9a328991-dd42-47b0-a9a8-d7dc4c88d5cf" version="1">
+	<skill_container version="2" open="yes">
+		<name>Vehicle Imbuements</name>
+		<reference>PY71:25</reference>
+		<skill version="2">
+			<name>Aerial Operation</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:26</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Agile Operation</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:26</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 1</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>All-Terrain Operation</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:26</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 1</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Alluring Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:26</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 1</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Aquatic Operation</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:27</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Animate Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:27</reference>
+			<categories>
+				<category>Imbue</category>
+				<category>Lasting</category>
+				<category>Machine</category>
+				<category>Transportation</category>
+				<category>Unpowered</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Armored Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:27</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Chameleon Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:27</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Clinging Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:27</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Efficient Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:28</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Lasting</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Hardy Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:28</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Hasten Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:28</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Phantom Hold</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:28</reference>
+			<categories>
+				<category>Imbue</category>
+				<category>Lasting</category>
+				<category>Machine</category>
+				<category>Transportation</category>
+				<category>Unpowered</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Phasing Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:29</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Ramming Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:29</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Self-Repairing Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:29</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Lasting</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Stable Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:29</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 1</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Stalwart Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:29</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Superior Life Support</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:29</reference>
+			<categories>
+				<category>Imbue</category>
+				<category>Lasting</category>
+				<category>Machine</category>
+				<category>Transportation</category>
+				<category>Unpowered</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Tireless Mount</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:29</reference>
+			<categories>
+				<category>Imbue</category>
+				<category>Lasting</category>
+				<category>Mounted</category>
+				<category>Transportation</category>
+				<category>Unpowered</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Transform Vehicle</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:30</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Underground Operation</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:30</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 2</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Vacuum Operation</name>
+			<specialization>@Vehicle@</specialization>
+			<difficulty>DX/VH</difficulty>
+			<points>1</points>
+			<reference>PY71:30</reference>
+			<categories>
+				<category>General</category>
+				<category>Imbue</category>
+				<category>Lasting</category>
+				<category>Transportation</category>
+			</categories>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Imbue</name>
+					<notes compare="contains">Imbue level 3</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</skill>
+	</skill_container>
+</skill_list>
